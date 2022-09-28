@@ -83,7 +83,7 @@ class RandomChar extends Component {
 
 const View = ({char}) => {
 
-    const {name, description, thumbnail, homepage, wikil} = char;
+    const {name, description, thumbnail, homepage, wiki} = char;
     
     let imgStyle = {objectFit: 'cover'};
 
@@ -105,7 +105,7 @@ const View = ({char}) => {
                 <a href={homepage} className="button button__main">
                     <div className="inner">homepage</div>
                 </a>
-                <a href={wikil} className="button button__secondary">
+                <a href={wiki} className="button button__secondary">
                     <div className="inner">Wiki</div>
                 </a>
             </div>
